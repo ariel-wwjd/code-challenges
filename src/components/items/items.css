@@ -1,0 +1,20 @@
+.main-title {
+    margin-bottom: 100px;
+}
+
+.item {
+    display: flex;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    /* height: 60%; */
+    background-color: cadetblue;
+}
+
+.footer {
+    display: flex;
+}

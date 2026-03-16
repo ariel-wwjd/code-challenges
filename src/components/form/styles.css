@@ -1,0 +1,39 @@
+.main-title-form {
+    margin-bottom: 100px;
+}
+
+.form-area {
+    margin: 0 200px;
+    background-color: rgb(218, 217, 216);
+    padding: 40px;
+}
+
+/*  ===========================Input Text Styles========================== */
+.text-input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.text-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.text-error {
+    align-self: flex-end;
+    color: firebrick;
+}
+
+.label {
+    /* margin: 12px; */
+    width: 100px;
+}
+
+/*  ===========================Input Number Styles========================== */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

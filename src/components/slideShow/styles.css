@@ -1,0 +1,32 @@
+.main-title-form {
+    margin-bottom: 100px;
+}
+
+.container {
+    display: flex;
+    margin: 0 100px;
+    background-color: rgb(214, 214, 214);
+    align-items: center;
+}
+
+.arrow-left {
+    margin: 16px;
+}
+
+.pictures-container {
+    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+    margin: 16px auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.image {
+    height: 400px;
+    width: 400px;
+}
+
+.arrow-right {
+    margin: 16px;
+}

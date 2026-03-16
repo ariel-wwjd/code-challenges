@@ -1,0 +1,77 @@
+.feedback-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.feedback-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.feedback-card {
+  width: 260px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.feedback-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.upvote {
+  background-color: #28a745;
+  color: white;
+}
+
+.downvote {
+  background-color: #dc3545;
+  color: white;
+}
+
+.feedback-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.next-task-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 180px;
+  background-color: #f9f9f9;
+}
+
+.next-task-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.next-task-btn:hover {
+  background-color: #0056b3;
+}

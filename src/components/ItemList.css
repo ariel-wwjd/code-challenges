@@ -1,0 +1,58 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s, transform 0.2s;
+  font-size: 1rem;
+}
+
+.list-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+.list-item span {
+  flex: 1;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.add-button {
+    width: 89%;
+    margin-right: 1%;
+}
+.delete-button {
+    width: 10%;
+}
+
+
+button {
+  margin-top: 1rem;
+  padding: 12px;
+  background-color: #3f51b5;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

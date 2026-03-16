@@ -1,0 +1,15 @@
+.words-actions-container {
+    display: flex;
+    margin: 24px;
+}
+
+.button {
+    margin-left: 20px;
+}
+
+.result-container {
+    padding: 12px;
+    margin: 24px;
+    background-color: rgb(192, 192, 188);
+    height: 200px;
+}
